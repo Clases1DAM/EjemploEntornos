@@ -12,6 +12,7 @@ package examenev1;
 public class Persona {
     private String nombre;
     private int edad;
+    private String dni;
 
     /**
      * @return the nombre
