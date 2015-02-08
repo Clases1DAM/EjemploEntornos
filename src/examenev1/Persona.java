@@ -11,6 +11,7 @@ package examenev1;
  */
 public class Persona {
     private String nombre;
+    private int edad;
 
     /**
      * @return the nombre
@@ -24,6 +25,20 @@ public class Persona {
      */
     public void setNombre(String nombre) {
         this.nombre = nombre;
+    }
+
+    /**
+     * @return the edad
+     */
+    public int getEdad() {
+        return edad;
+    }
+
+    /**
+     * @param edad the edad to set
+     */
+    public void setEdad(int edad) {
+        this.edad = edad;
     }
     
     
