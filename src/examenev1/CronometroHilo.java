@@ -40,6 +40,7 @@ public class CronometroHilo extends Thread{
                     String tiempo = (getHora()<=9?"0":"")+getHora()+":"+(getMin()<=9?"0":"")+getMin()+":"+(getSeg()<=9?"0":"")+getSeg()+":"+(getDs()<=9?"0":"")+getDs();
                     cr.getjDisplay().setText(tiempo);
                     Thread.sleep(10);//que duerma una decima de segundo
+                    System.out.println(tiempo);
                 }
             } catch (Exception e) {
                 System.out.println(e.getMessage());
